@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/**************************
+
+Bootstrap Base
+Template for Custom CSS
+
+**************************/
+
+/* Import some Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Philosopher|Federant|Geostar+Fill|Iceland|Orbitron|Audiowide|Titillium+Web);
+
+body {
+	font-family: Philiosopher, sans-serif!important; /* Add  an imported Google Font */
+	margin: auto;
+	width: 80%;
+	background-color: #EFEFEF;
+	color: #121212;
+}
+
+.container {
+	margin: 20px;
+}
+
+a {
+	color: #FF9900;
+}
+
+a:hover, p a:hover {
+	color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding-left: 0;
+}
+
+/* Masthead */
+
+.brand-masthead {}
+
+.brand-masthead p {
+	font-size: 2em;
+	margin-bottom: 80px;
+}
+
+.brand-content {}
+
+.brand-footer p {
+	margin-top: 10px;
+}
+
+/* remove background color from .jumbotron */
+.jumbotron {
+	background-color: transparent; 
+}
