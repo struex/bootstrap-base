@@ -1,4 +1,4 @@
-bootstrap-theme
+bootstrap-base
 ===============
 
-Repo for Bootstrap theme
+Repo for Bootstrap bare bones templates
