@@ -1,4 +1,11 @@
 bootstrap-base
 ===============
 
-Repo for Bootstrap bare bones HTML5 responsive page template
+Repo for Bootstrap templates
+
+....
+
+Contents
+
+index.html - super simple "coming soon" page
+styles.css - CSS for custom styles
