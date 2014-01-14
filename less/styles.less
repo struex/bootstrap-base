@@ -10,12 +10,15 @@ Template for Custom CSS
 /* Import some Google Fonts */
 @import url(http://fonts.googleapis.com/css?family=Philosopher|Federant|Geostar+Fill|Iceland|Orbitron|Audiowide|Titillium+Web);
 
+@orange: #FF9900; /* brand orange */
+@offblack: #121212; /* off black */
+
 body {
 	font-family: Philiosopher, sans-serif!important; /* Add  an imported Google Font */
 	margin: auto;
 	width: 80%;
 	background-color: #EFEFEF;
-	color: #121212;
+	color: @offblack;
 }
 
 .container {
@@ -23,11 +26,11 @@ body {
 }
 
 a {
-	color: #FF9900;
+	color: @orange;
 }
 
 a:hover, p a:hover {
-	color: #121212;
+	color: @offblack;
 }
 
 h1, h2, h3, h4, h5, h6 {
